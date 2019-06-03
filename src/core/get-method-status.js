@@ -1,7 +1,7 @@
-import createIframe from "adyen-3ds2-web-sdk/src/utils/create-iframe";
-import { createForm } from "adyen-3ds2-web-sdk/src/utils/create-form";
-import base64URL from "adyen-3ds2-web-sdk/src/utils/base-64-url";
-import { defaultRootContainer, THREEDS_METHOD_TIMEOUT } from "adyen-3ds2-web-sdk/src/globals/config";
+import createIframe from "../utils/create-iframe";
+import { createForm } from "../utils/create-form";
+import base64URL from "../utils/base-64-url";
+import { defaultRootContainer, THREEDS_METHOD_TIMEOUT } from "../globals/config";
 
 let at3DSMethodNotificationUrlResolvedFn;
 

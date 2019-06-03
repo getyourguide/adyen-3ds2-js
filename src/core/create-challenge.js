@@ -1,10 +1,10 @@
-import createIframe from "adyen-3ds2-web-sdk/src/utils/create-iframe";
-import { createForm } from "adyen-3ds2-web-sdk/src/utils/create-form";
-import base64URL from "adyen-3ds2-web-sdk/src/utils/base-64-url";
-import { challengeWindowSizes} from 'adyen-3ds2-web-sdk/src/globals/config';
-import { parseQueryString } from 'adyen-3ds2-web-sdk/src/utils/parse-query-string';
-import { removeChallenge } from 'adyen-3ds2-web-sdk/src/utils/cleanup-challenge';
-import { log } from 'adyen-3ds2-web-sdk/src/utils/logger';
+import createIframe from "../utils/create-iframe";
+import { createForm } from "../utils/create-form";
+import base64URL from "../utils/base-64-url";
+import { challengeWindowSizes} from '../globals/config';
+import { parseQueryString } from '../utils/parse-query-string';
+import { removeChallenge } from '../utils/cleanup-challenge';
+import { log } from '../utils/logger';
 
 export const createChallenge = (acsURL, cReqData, iframeConfig, callBack) => {
 

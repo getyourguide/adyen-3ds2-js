@@ -1,4 +1,4 @@
-import { createForm } from 'adyen-3ds2-web-sdk/src/utils/create-form';
+import { createForm } from './create-form';
 
 const validFormInput = {
     "name" : "test",

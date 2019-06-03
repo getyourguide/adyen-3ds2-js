@@ -1,3 +1,13 @@
+# DEPRECATED
+
+Instead use the 3ds2-js-utils
+https://github.com/Adyen/adyen-3ds2-js-utils
+
+Documentation:
+https://docs.adyen.com/developers/3d-secure-2-classic-integration/browser-based-integration/3d-secure-2-helper-functions
+
+!!! This page serves as a reference page only. The use of helper functions replaces the Web 3D Secure 2 SDK implementation. If you are currently using Web 3D Secure 2 SDK and require assistance, contact Support Team.!!!
+
 # 3DS2 JS SDK
 With this SDK, you can accept 3D Secure 2.0 payments via Adyen. This SDK helps you with the management of the 3DS 2.0 challenges. This happens in the form of the creation of `<iframes>`, form `POSTS` using these `<iframes>` and handling the returned 3DS 2.0 results.
 

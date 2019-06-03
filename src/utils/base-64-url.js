@@ -1,4 +1,4 @@
-import { log } from "adyen-3ds2-web-sdk/src/utils/logger";
+import { log } from "./logger";
 
 /**
  * @function base64urlEncode

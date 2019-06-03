@@ -1,4 +1,4 @@
-import base64URL from 'adyen-3ds2-web-sdk/src/utils/base-64-url';
+import base64URL from './base-64-url';
 
 describe('base64 URL encoding', () => {
     describe('base64URL.encode', () => {
