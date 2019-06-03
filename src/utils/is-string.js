@@ -1,4 +1,4 @@
-import { isObjectLike } from 'adyen-3ds2-web-sdk/src/utils/is-object-like';
+import { isObjectLike } from './is-object-like';
 
 /**
  * Used to resolve the ['toStringTag'](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)

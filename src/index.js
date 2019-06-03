@@ -3,8 +3,8 @@
  * 3DS Message version 2.1.0
  */
 import 'core-js/fn/promise' // adds 46k (unminified)
-import { createChallenge } from 'adyen-3ds2-web-sdk/src/core/create-challenge';
-import { getMethodStatus } from 'adyen-3ds2-web-sdk/src/core/get-method-status';
+import { createChallenge } from './core/create-challenge';
+import { getMethodStatus } from './core/get-method-status';
 
 const threedsSDK = {};
 

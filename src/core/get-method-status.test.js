@@ -1,4 +1,4 @@
-import { getMethodStatus } from 'adyen-3ds2-web-sdk/src/core/get-method-status';
+import { getMethodStatus } from './get-method-status';
 
 beforeEach(() => {
     jest.resetModules();
@@ -68,7 +68,7 @@ describe('getMethodStatus returns a promise and', () => {
             '</div>';
 
         const container = document.getElementById('container');
-        const { getMethodStatus: getMethodStatusFunction } = require('adyen-3ds2-web-sdk/src/core/get-method-status');
+        const { getMethodStatus: getMethodStatusFunction } = require('./get-method-status');
 
         getMethodStatusFunction('test', 'not-a-url', 'not-a-url', container).then(result => {
             expect(result).toEqual(nObject);

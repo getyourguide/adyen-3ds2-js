@@ -1,4 +1,4 @@
-import { isObjectLike } from 'adyen-3ds2-web-sdk/src/utils/is-object-like';
+import { isObjectLike } from './is-object-like';
 
 const object = {
     "test": "ja",

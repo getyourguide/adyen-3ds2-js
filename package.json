@@ -45,8 +45,5 @@
   },
   "jest": {
     "transform": {}
-  },
-  "_resolved": "",
-  "_integrity": "",
-  "_from": "adyen-3ds2-web-sdk@git+https://github.com/Adyen/adyen-3ds2-js.git"
+  }
 }

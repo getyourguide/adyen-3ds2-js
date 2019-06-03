@@ -1,4 +1,4 @@
-import createIframe from 'adyen-3ds2-web-sdk/src/utils/create-iframe';
+import createIframe from './create-iframe';
 
 const mockCallback = jest.fn();
 

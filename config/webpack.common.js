@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const resolve = dir => path.resolve(__dirname, dir);
-const SDK_VERSION_NUM = require('adyen-3ds2-web-sdk/package.json').version;
+const SDK_VERSION_NUM = require('../package.json').version;
 
 module.exports = {
     entry: [resolve('../src/index.js')],

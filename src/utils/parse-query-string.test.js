@@ -1,4 +1,4 @@
-import { parseQueryString } from "adyen-3ds2-web-sdk/src/utils/parse-query-string";
+import { parseQueryString } from "./parse-query-string";
 
 const urlObject = {
     "test": "ja",

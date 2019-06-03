@@ -1,4 +1,4 @@
-import { isString } from 'adyen-3ds2-web-sdk/src/utils/is-string';
+import { isString } from './is-string';
 
 /**
  * @function parseQueryString

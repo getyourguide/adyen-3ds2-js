@@ -1,11 +1,11 @@
 const path = require('path');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
-const commonConfig = require('adyen-3ds2-web-sdk/config/webpack.common.js');
+const commonConfig = require('./webpack.common.js');
 const resolve = dir => path.resolve(__dirname, dir);
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
-const SDK_VERSION_NUM = require('adyen-3ds2-web-sdk/package.json').version;
+const SDK_VERSION_NUM = require('../package.json').version;
 
 module.exports = merge(commonConfig, {
     mode : 'production',
